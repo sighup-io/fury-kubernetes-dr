@@ -16,6 +16,6 @@ resource "aws_s3_bucket" "ark-backup" {
 
   tags {
     Name        = "${var.ark_backup_bucket_name}"
-    Environment = "Production"
+    Environment = "${var.environment}"
   }
 }
