@@ -6,7 +6,3 @@ variable aws_region {
 }
 
 variable ark_backup_bucket_name {}
-
-provider aws {
-  region = "${var.aws_region}"
-}

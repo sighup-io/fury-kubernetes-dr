@@ -18,8 +18,6 @@ variable ark_resource_group_name {
   description = "Resouce group in which to create Ark resources"
 }
 
-provider "azurerm" {}
-
 data "azurerm_client_config" "main" {}
 
 data "azurerm_resource_group" "main" {
